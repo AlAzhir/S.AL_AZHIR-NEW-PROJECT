@@ -1,0 +1,46 @@
+{
+    "intents":[
+      {
+        "tag":"greeting",
+        "patterns":[
+            "Hi",
+            "Hey",
+            "What's up?",
+            "Hey how are you doing?"
+        ],
+        "responses":[
+            "Hey Sir!",
+            "What can I do for you?"
+        ]
+      },
+      {
+        "tag":"project",
+        "patterns":[
+            "What is Project",
+            "Tell me about Project",
+            "Who is Project"
+        ],
+        "responses":[
+            "Project is to showcase their skills"
+        ]
+      },
+      {
+        "tag":"name",
+        "patterns":[
+            "What is your name?",
+            "What should I call you?"
+        ],
+        "responses":[
+            "My name is S.AL AZHIR!"
+        ]
+      },
+      {
+        "tag":"file",
+        "patterns":[
+            "Create a file",
+            "Create new file"
+        ],
+        "responses":[]
+      }  
+    ]
+}
