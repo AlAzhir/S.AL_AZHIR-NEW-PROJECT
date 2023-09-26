@@ -1,0 +1,25 @@
+{"intents": [
+    {"tag":"greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "How is it going?"], 
+    "responses":["Hello!", "Hey!", "What can I do for you?"]   
+    },   
+    {"tag":"goodbye",   
+    "patterns": ["da", "See you later", "Goodbye", "I an Leaving", "Have a Good day", "bye", "cap", "see ya"], 
+    "responses":["sad to see you go :(", "Talk to you later", "Goodbye!"]
+    }, 
+    {"tag": "age",
+    "patterns": ["how old", "how old is florian", "what is your age", "how old are you", "age?"],
+    "responses":["My owner Florian is 21 years old!", "21 years!"]
+    },
+    {"tag": "name",   
+    "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?", "Can you tell me"], 
+    "responses":["You can call me S.AL AZHIR.", "I'm S.AL AZHIR", "I'm S.AL AZHIR the assistant of Florian!"]
+    },
+    {"tag":"shop",
+    "patterns": ["Id like to buy something", "what are your products?", "what do you recommend?", "what are you selling"], 
+    "responses":["Neuralnine has a seven part Python book series and a lot of free content on YouTube"]
+    },
+    {"tag": "hours",
+    "patterns": ["when are you guys open", "what are your hours", "hours of open"],
+    "responses":["24/7"]
+    },
