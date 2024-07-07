@@ -1,3 +1,5 @@
+#pip install qrcode[pil]
+
 import qrcode
 
 def generate_qrcode(text):
